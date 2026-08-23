@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kotrace",
+    "module": "kotrace-bom",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace-okhttp",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace-room",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace-okhttp",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace-room",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ]
+    }
+  ]
+}
