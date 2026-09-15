@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kotrace",
+    "module": "kotrace-room",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-room-0.4.0.aar",
+          "url": "kotrace-room-0.4.0.aar",
+          "size": 3911,
+          "sha512": "ab02e97cd1be3a6cb70a435ebb517064fbe6490e018fdebcf23772b8487806da83a3d07a99b180dc5c22476dc959b5b6326e976aef550d50c87ae18c3e44035a",
+          "sha256": "8dcafb1e79882277b1ca1803f8ac2500da19e3710e3e950194c313e23d6bd373",
+          "sha1": "57c35d71742e9694e2a8e6a0111107ecb1408f6f",
+          "md5": "20b2797beeb54a83665246e0ae859618"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-room-0.4.0.aar",
+          "url": "kotrace-room-0.4.0.aar",
+          "size": 3911,
+          "sha512": "ab02e97cd1be3a6cb70a435ebb517064fbe6490e018fdebcf23772b8487806da83a3d07a99b180dc5c22476dc959b5b6326e976aef550d50c87ae18c3e44035a",
+          "sha256": "8dcafb1e79882277b1ca1803f8ac2500da19e3710e3e950194c313e23d6bd373",
+          "sha1": "57c35d71742e9694e2a8e6a0111107ecb1408f6f",
+          "md5": "20b2797beeb54a83665246e0ae859618"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotrace-room-0.4.0-sources.jar",
+          "url": "kotrace-room-0.4.0-sources.jar",
+          "size": 1928,
+          "sha512": "f94642c4323f6759bac6831d680255d804248b7e04dd54cf35c24155e3d3cdd34dbefd60a2a661a49e32c3ee0fc244b17745988eba1a091f01548ca1ff752f4f",
+          "sha256": "40a41b57e140842bb74ff11c74601fa8f73d291735925438d8350decda671517",
+          "sha1": "bb65fc172589860d3512f601490b37abd316ae59",
+          "md5": "e052bbf7aef660ac08f07a4bf70f8f60"
+        }
+      ]
+    }
+  ]
+}
