@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kotrace",
+    "module": "kotrace-okhttp",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-okhttp-0.5.0.jar",
+          "url": "kotrace-okhttp-0.5.0.jar",
+          "size": 21558,
+          "sha512": "afd3dece063ca263a276eefb765e27769f3772a6743825fd0d00df043ff8242bd00019a74e20a664346774f375e38c345535e2dd6daf7a8f42a23cb733072220",
+          "sha256": "68ea8e42da1bf7186c84fc89643051bbc9d4ae39b1db90f2bd74bfed114eab6f",
+          "sha1": "075df7a9356687195b472f4436bf13eb28b87fae",
+          "md5": "e63d2ae8044e425a9887968545ea7237"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.kotrace",
+          "module": "kotrace",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-okhttp-0.5.0.jar",
+          "url": "kotrace-okhttp-0.5.0.jar",
+          "size": 21558,
+          "sha512": "afd3dece063ca263a276eefb765e27769f3772a6743825fd0d00df043ff8242bd00019a74e20a664346774f375e38c345535e2dd6daf7a8f42a23cb733072220",
+          "sha256": "68ea8e42da1bf7186c84fc89643051bbc9d4ae39b1db90f2bd74bfed114eab6f",
+          "sha1": "075df7a9356687195b472f4436bf13eb28b87fae",
+          "md5": "e63d2ae8044e425a9887968545ea7237"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotrace-okhttp-0.5.0-sources.jar",
+          "url": "kotrace-okhttp-0.5.0-sources.jar",
+          "size": 8345,
+          "sha512": "c2e53060cca929440fb3e55020be79ceac5b8fa5390aa0b69fa527603c6a63841ab10c4342cd1376bddd3f2d7d05c5d7d1d56d5cc495a4a57604dadcfdce3b17",
+          "sha256": "cd3ecf766d5c1c929306532e29d519d03a69fa4af074f1316ea6d48d97ff9852",
+          "sha1": "18dcbf850364082ebf93d5a0f1530de72818f102",
+          "md5": "b35788701486b62cc4af2eedd214fcf2"
+        }
+      ]
+    }
+  ]
+}
