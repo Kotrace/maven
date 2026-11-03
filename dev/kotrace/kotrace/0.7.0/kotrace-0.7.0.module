@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kotrace",
+    "module": "kotrace",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-0.7.0.jar",
+          "url": "kotrace-0.7.0.jar",
+          "size": 161717,
+          "sha512": "ddee3ebc8d56ce572a4d439a07253bc0cf97c73872ffeea59a5fec839b428ccc6385dfadb80a86b81da048d4915b33b1a47b436fa72abc8ea81b53d3a3e608bc",
+          "sha256": "e335b04cf230eed3f3f08208a8fc41f3e05ac6363b72402f7392d43b96724bdf",
+          "sha1": "50f8c5c9151d02586bd56c8afa16455ba5a574d2",
+          "md5": "0ae145a45aa2bd226dbb92ab455e34f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotrace-0.7.0.jar",
+          "url": "kotrace-0.7.0.jar",
+          "size": 161717,
+          "sha512": "ddee3ebc8d56ce572a4d439a07253bc0cf97c73872ffeea59a5fec839b428ccc6385dfadb80a86b81da048d4915b33b1a47b436fa72abc8ea81b53d3a3e608bc",
+          "sha256": "e335b04cf230eed3f3f08208a8fc41f3e05ac6363b72402f7392d43b96724bdf",
+          "sha1": "50f8c5c9151d02586bd56c8afa16455ba5a574d2",
+          "md5": "0ae145a45aa2bd226dbb92ab455e34f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotrace-0.7.0-sources.jar",
+          "url": "kotrace-0.7.0-sources.jar",
+          "size": 58673,
+          "sha512": "75e1b1cef5f0a9d0e1cf6f64da1e935071e5d51a538f919355a9aed7e718f0c6c513bc77b29b5c784fb30f69029d94affe08a6ec416c82e195001d4fb68ce92b",
+          "sha256": "ba793cfba959077c5e629f920085387c989aa5b738c8d17f96a8a51ffffaa97b",
+          "sha1": "86a86f3f39be81839a3943944313ac9438895f96",
+          "md5": "197b860c50aa03d53625378d48d0ed41"
+        }
+      ]
+    }
+  ]
+}
